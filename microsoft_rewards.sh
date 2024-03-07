@@ -8,6 +8,6 @@ do
     RANDOM_STRING=$(cat /dev/urandom | LC_ALL=C tr -dc 'a-zA-Z0-9' | fold -w 10 | head -n 1)
     URL="$URL_START$RANDOM_STRING$URL_END"
     microsoft-edge "$URL" &
-    sleep 10
+    sleep 8
 done
 
