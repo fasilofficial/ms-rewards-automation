@@ -10,4 +10,3 @@ do
     microsoft-edge "$URL" &
     sleep 8
 done
-
